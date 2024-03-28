@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+          
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            width: 100%;
+            background-image: url(CSS/hotel/bookhotel.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size:cover;
+        }
+        #form-box{
+            width: 400px;
+            height: 350px;
+            position: relative;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: transparent;
+            box-shadow: 2px 2px 2px 2px black;
+            border-radius: 6px;
+            backdrop-filter: blur(2px);
+        }
+        h2{
+            font-size: 35px;
+            text-align: center;
+            color: black;
+        }
+        #input-box{
+            position: relative;
+            margin: 25px 0px;
+            width: 320px;
+            border-bottom: 2px solid rgb(0, 0, 0);
+        }
+        #input-box label{
+            position: absolute;
+            left: 5px;
+            top: 50px;
+            transform: translateY(-160%);
+            font-size: 20px;
+            pointer-events: none;
+            transition: 0.5s;
+        }
+        input:focus + label,
+input:valid + label {
+    top: -6px;
+}
+        #input-box input{
+            width: 100%;
+            height: 30px;
+            background: transparent;
+            outline: none;
+            border: none;
+            pad: 0 25px 0 5px;
+            font-size: 20px;
+        }
+        #input-box input::placeholder{
+            font-size: 15px;
+            color: black;
+        }
+        button{
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            background-color: black;
+            cursor: pointer;
+            color: white;
+        }
+        #input-box #icon{
+            position: absolute;
+            font-size: 30px;
+            right: 7px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <div id="form-box">
+        <div id="forn-value">
+            <form action="AdminLoginController" method="post">
+                <h2>Login</h2>
+                <div id="input-box">
+                    <samp id="icon"><img src="CSS/hotel/username.png"></ion-icon></samp>
+                    <input type="text" name="username" placeholder="Username">
+                    
+                </div>
+                <div id="input-box">
+                    <samp id="icon"><img src="CSS/hotel/passwors.png"></ion-icon></samp>
+                    <input type="text" name="password" placeholder="Password">
+                    
+                </div>
+                <button>Login</button>
+            </form>
+        </div>
+    </div>
+    
+
+    </section>
+</body>
+</html>

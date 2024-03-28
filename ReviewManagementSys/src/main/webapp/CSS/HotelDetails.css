@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+
+	body{
+		padding: 0%;
+		margin: 0%;
+	}
+	#wrapper{
+		padding: 90px 500px;
+		box-sizing: 10px 5px;
+		 
+		}
+
+	
+	#Hotel h1{
+		font-size: 30px;
+		margin-top: 10px;
+		text-align: center;
+		color: white;
+	
+	}
+	#Datails{
+		height: 400px;
+		width: 450px;
+		background: transparent;
+		 background-color: rgba(0, 0, 0, 0.7);
+		padding-left: 30px;
+		box-shadow: 2px 3px 2px 2px black;
+		border-bottom: 2px solid rgb(0, 0, 0);
+		
+	
+	}
+	#Datails input{
+		 width: 84%;
+            height: 33px;
+            background: transparent;
+            outline: none;
+            border: none;
+           
+            border-bottom: 3px solid rgb(255, 255, 255);
+            font-size: 20px;
+            color: white;
+           
+	}
+	#pk select{
+		width: 35%;
+    margin-left: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    background-color: #fff;
+	}
+	#pk{
+		display: flex;
+		margin-left: 70px;
+	}
+	#pk select:focus {
+    outline: none;
+   border: none;
+}
+#pk select option {
+    margin-left: 10px;
+    background-color:rebeccapurple;
+    color: #333;
+}
+#Datails label{
+	color: white;
+	font-size: 20px;
+}
+	#Datails input::placeholder{
+            font-size: 20px;
+            color: white;
+        }
+	#btn{
+		margin-top: 30px;
+		padding-left: 65px;
+		width:40px;
+		height: 20px;
+	}
+	#btn button{
+		width: 250px;
+		height: 25px;
+		border-radius: 6px;
+		box-shadow: 2px 3px 2px grey;
+			border :none;
+			outline: none;
+			font-size: 17px;
+	}
+	#btn button:hover{
+		background-color: black;
+		color: white;
+	}
+	#icon img{
+           position:unset;
+            font-size: 30px;
+            left: 2px;
+            padding-left: 20px;
+        }

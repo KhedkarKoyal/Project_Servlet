@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+#design {
+	padding: 40px 200px;
+	margin: auto;
+}
+table {
+	border-collapse:collapse;
+	 background-color: rgba(0, 0, 0, 0.9);
+	
+	box-shadow: 2px 3px 2px 3px rgb(0, 0, 0);
+	border-radius: 3px;
+}
+ table tr,td{
+	width: 100%;
+}
+table,td,th,tr {
+	border: 1px solid black;
+	text-align: center; 
+	width: 100px;
+}
+table tr th{
+	font-size: 25px;
+	color: lightyellow;
+}
+table tr{
+	color: white;
+}
+th,td {
+	padding: 5px;
+	padding-left: 19px;
+	padding-right: 19px;
+	height: 10px;
+	width: 120px;
+}
+
+tr:hover {
+	background-color:aliceblue;
+	color: black;
+	transform:translate();
+	
+
+}
+a{
+	text-decoration: none;
+}
